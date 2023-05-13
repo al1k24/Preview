@@ -9,7 +9,7 @@ import SwiftUI
 
 public extension UIViewController {
     @ViewBuilder
-    public func toPreview(
+    func toPreview(
         _ previewDevices: [PreviewDevice] = []
     ) -> some View {
         if previewDevices.isEmpty {

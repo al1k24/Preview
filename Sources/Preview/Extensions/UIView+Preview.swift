@@ -8,7 +8,7 @@
 import SwiftUI
 
 public extension UIView {
-    public func toPreview() -> some View {
+    func toPreview() -> some View {
         PreviewViewRepresentable(view: self)
     }
 }
